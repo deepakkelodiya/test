@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <style>
+
+        body{
+            height: 550px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     #container{
+         width:30%;
+         background-color: 
+#48c9b0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+    #container>div{
+        width:75%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        
+     }
+     
+     #container>div>input,button{
+         margin-top: 20px;
+         padding: 18px;
+         border: transparent;
+     }
+    h1{
+        text-align: center;
+        font-weight:lighter;
+        margin-top: 40px;
+        font-size: 25px;
+        color: white;
+    }
+    button{
+        background-color: 
+#17a589;
+color: white;
+    }
+    button+button{
+        margin-bottom: 60px;
+    }
+    button:hover{
+        background-color: grey;
+        color: black;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>- Visitor -</h1>
+        <div>
+            <input id="Fname" type="text" placeholder="Full name" >
+            <input id="Email" type="email" placeholder="Email">
+            <input id="org" type="text" placeholder="Organization">
+            <button id="signup" type="submit">SIGN UP</button>
+            <button id="return" type="click">RETURN</button>
+        </div>
+    </div>
+</body>
+</html>
