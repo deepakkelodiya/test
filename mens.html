@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 60%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+
+        #container>div {
+            width: 50%;
+            margin: auto;
+
+            margin-right: 20px;
+
+        }
+
+        #container>div h3,
+        p {
+            padding-left: 10px;
+        }
+
+        #container>div>img {
+            width: 100%;
+            height: 400px;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        h3+p {
+            font-size: 30px;
+            color: grey;
+            margin-top: -2px;
+        }
+
+        p+p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/21/ee06c7d2-4860-4540-9a6c-2cb78fe493dc1619007999275-1.jpg"
+                alt="">
+            <h3>Puma</h3>
+            <p>Mens solid track pant</p>
+            <p>Rs.789</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16824946/2022/4/4/a49a65d4-30f9-4703-8453-2a7dc4f67b271649060187180-Puma-Unisex-Sports-Shoes-5381649060186749-1.jpg"
+                alt="">
+            <h3>Shoes</h3>
+            <p>Unisex Badminton Shoes</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+</body>
+
+</html>
